@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>@APP_ID@</id>
+  <name>Image Bench</name>
+  <summary>Resize and compress images locally</summary>
+  <summary xml:lang="nl">Pas afbeeldingsformaten lokaal aan en comprimeer ze</summary>
+  <summary xml:lang="de">Bilder lokal skalieren und komprimieren</summary>
+  <summary xml:lang="fr">Redimensionner et compresser des images localement</summary>
+  <summary xml:lang="es">Redimensiona y comprime imágenes localmente</summary>
+  <summary xml:lang="it">Ridimensiona e comprimi immagini localmente</summary>
+  <summary xml:lang="pt">Redimensione e comprima imagens localmente</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <developer id="io.github.christiaanbruinsma">
+    <name>Christiaan Bruinsma</name>
+  </developer>
+  <description>
+    <p>Image Bench is a local-first GNOME utility for resizing and compressing batches of JPEG and PNG images without uploading them to a third-party service.</p>
+    <p>Resize presets preserve the original aspect ratio and never upscale smaller source images.</p>
+    <p xml:lang="nl">Image Bench is een lokale GNOME-tool voor het aanpassen van het formaat en comprimeren van batches JPEG- en PNG-afbeeldingen, zonder ze naar een externe dienst te uploaden.</p>
+    <p xml:lang="nl">Voorinstellingen voor formaatwijziging behouden de oorspronkelijke beeldverhouding en vergroten kleinere bronafbeeldingen nooit.</p>
+    <p xml:lang="de">Image Bench ist ein lokal arbeitendes GNOME-Werkzeug zum Skalieren und Komprimieren von JPEG- und PNG-Bildstapeln, ohne sie zu einem Drittanbieter hochzuladen.</p>
+    <p xml:lang="de">Größenvoreinstellungen behalten das ursprüngliche Seitenverhältnis bei und skalieren kleinere Quellbilder niemals hoch.</p>
+    <p xml:lang="fr">Image Bench est un utilitaire GNOME local permettant de redimensionner et compresser des lots d’images JPEG et PNG sans les téléverser vers un service tiers.</p>
+    <p xml:lang="fr">Les préréglages de redimensionnement conservent le rapport hauteur/largeur d’origine et n’agrandissent jamais les petites images source.</p>
+    <p xml:lang="es">Image Bench es una utilidad GNOME local para redimensionar y comprimir lotes de imágenes JPEG y PNG sin subirlas a un servicio de terceros.</p>
+    <p xml:lang="es">Los ajustes predefinidos de tamaño conservan la relación de aspecto original y nunca amplían las imágenes de origen más pequeñas.</p>
+    <p xml:lang="it">Image Bench è un’utilità GNOME locale per ridimensionare e comprimere batch di immagini JPEG e PNG senza caricarle su servizi di terze parti.</p>
+    <p xml:lang="it">Le preimpostazioni di ridimensionamento mantengono le proporzioni originali e non ingrandiscono mai le immagini sorgente più piccole.</p>
+    <p xml:lang="pt">O Image Bench é um utilitário GNOME local para redimensionar e comprimir lotes de imagens JPEG e PNG sem as enviar para um serviço de terceiros.</p>
+    <p xml:lang="pt">As predefinições de redimensionamento preservam a proporção original e nunca ampliam imagens de origem mais pequenas.</p>
+  </description>
+  <launchable type="desktop-id">@APP_ID@.desktop</launchable>
+  <provides>
+    <binary>image-bench</binary>
+  </provides>
+  <releases>
+    <release version="0.9.0" date="2026-08-08">
+      <description>
+        <p>Initial public beta baseline.</p>
+        <p xml:lang="nl">Eerste openbare bètabasis.</p>
+        <p xml:lang="de">Erste öffentliche Beta-Basis.</p>
+        <p xml:lang="fr">Première base bêta publique.</p>
+        <p xml:lang="es">Primera base beta pública.</p>
+        <p xml:lang="it">Prima base beta pubblica.</p>
+        <p xml:lang="pt">Primeira base beta pública.</p>
+      </description>
+    </release>
+  </releases>
+  <content_rating type="oars-1.1" />
+</component>

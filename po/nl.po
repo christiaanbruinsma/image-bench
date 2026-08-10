@@ -1,0 +1,367 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Image Bench 0.9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-09 17:20+0200\n"
+"PO-Revision-Date: 2026-08-09 17:20+0200\n"
+"Last-Translator: Christiaan Bruinsma\n"
+"Language-Team: Dutch\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/application.rs:53
+msgid "Resize and compress batches of images locally."
+msgstr "Pas het formaat aan en comprimeer meerdere afbeeldingen lokaal."
+
+#: src/window.rs:168
+msgid "Drag to compare Original and Preview"
+msgstr "Sleep om Origineel en Voorbeeld te vergelijken"
+
+#: src/window.rs:524
+msgid "JPEG and PNG images"
+msgstr "JPEG- en PNG-afbeeldingen"
+
+#: src/window.rs:566 src/window.rs:1904
+msgid "Add Images"
+msgstr "Afbeeldingen toevoegen"
+
+#: src/window.rs:592 src/window.rs:1906
+msgid "Add Folder"
+msgstr "Map toevoegen"
+
+#: src/window.rs:771
+msgid "Resize: {resize} px  •  Quality: {quality}%"
+msgstr "Formaat: {resize} px  •  Kwaliteit: {quality}%"
+
+#: src/window.rs:1086 src/window.rs:1293 src/window.rs:2229
+msgid "Image"
+msgstr "Afbeelding"
+
+#: src/window.rs:1346
+msgid "Generating comparison…"
+msgstr "Vergelijking genereren…"
+
+#: src/window.rs:1359 src/window.rs:1372 src/window.rs:1393 src/window.rs:1410
+msgid "Compare unavailable"
+msgstr "Vergelijking niet beschikbaar"
+
+#: src/window.rs:1461
+msgid "Generating preview…"
+msgstr "Voorbeeld genereren…"
+
+#: src/window.rs:1472 src/window.rs:1535 src/window.rs:1545
+msgid "Preview unavailable"
+msgstr "Voorbeeld niet beschikbaar"
+
+#: src/window.rs:1578
+msgid "{width} × {height}  •  {size}  •  {percent}% smaller"
+msgstr "{width} × {height}  •  {size}  •  {percent}% kleiner"
+
+#: src/window.rs:1583
+msgid "{width} × {height}  •  {size}  •  {percent}% larger"
+msgstr "{width} × {height}  •  {size}  •  {percent}% groter"
+
+#: src/window.rs:1602
+msgid "Optimize Image"
+msgstr "Afbeelding optimaliseren"
+
+#: src/window.rs:1604 src/window.rs:2059
+msgid "Optimize Images"
+msgstr "Afbeeldingen optimaliseren"
+
+#: src/window.rs:1662 src/window.rs:2712
+msgid "0 images"
+msgstr "0 afbeeldingen"
+
+#: src/window.rs:1664 src/window.rs:2295
+msgid "{count} image"
+msgid_plural "{count} images"
+msgstr[0] "{count} afbeelding"
+msgstr[1] "{count} afbeeldingen"
+
+#: src/window.rs:1674
+msgid "Inspecting images…"
+msgstr "Afbeeldingen inspecteren…"
+
+#: src/window.rs:1676 src/window.rs:1891
+msgid "No images loaded"
+msgstr "Geen afbeeldingen geladen"
+
+#: src/window.rs:1712
+msgid "Select for bulk actions"
+msgstr "Selecteren voor bulkacties"
+
+#: src/window.rs:1819
+msgid "Remove from queue"
+msgstr "Uit wachtrij verwijderen"
+
+#: src/window.rs:1865
+msgid "Local image optimization"
+msgstr "Lokale afbeeldingsoptimalisatie"
+
+#: src/window.rs:1869
+msgid "About Image Bench"
+msgstr "Over Image Bench"
+
+#: src/window.rs:1870
+msgid "Quit"
+msgstr "Afsluiten"
+
+#: src/window.rs:1874
+msgid "Main menu"
+msgstr "Hoofdmenu"
+
+#: src/window.rs:1886
+msgid "1. Images"
+msgstr "1. Afbeeldingen"
+
+#: src/window.rs:1890 src/window.rs:2630
+msgid "Queue"
+msgstr "Wachtrij"
+
+#: src/window.rs:1896
+msgid "Clear queue"
+msgstr "Wachtrij wissen"
+
+#: src/window.rs:1912
+msgid "2. Resize"
+msgstr "2. Formaat"
+
+#: src/window.rs:1913
+msgid "Aspect ratio is always preserved. Images are never upscaled."
+msgstr "De beeldverhouding blijft altijd behouden. Afbeeldingen worden nooit vergroot."
+
+#: src/window.rs:1918
+msgid "1920 px — Background / Hero"
+msgstr "1920 px — Achtergrond / Hero"
+
+#: src/window.rs:1919
+msgid "1280 px — Content"
+msgstr "1280 px — Inhoud"
+
+#: src/window.rs:1920
+msgid "800 px — Small"
+msgstr "800 px — Klein"
+
+#: src/window.rs:1921 src/window.rs:1933
+msgid "Custom width"
+msgstr "Aangepaste breedte"
+
+#: src/window.rs:1926
+msgid "Target width"
+msgstr "Doelbreedte"
+
+#: src/window.rs:1938
+msgid "3. Quality"
+msgstr "3. Kwaliteit"
+
+#: src/window.rs:1941
+msgid "High — 92%"
+msgstr "Hoog — 92%"
+
+#: src/window.rs:1942
+msgid "Balanced — 85%"
+msgstr "Gebalanceerd — 85%"
+
+#: src/window.rs:1943
+msgid "Compact — 75%"
+msgstr "Compact — 75%"
+
+#: src/window.rs:1944
+msgid "Custom"
+msgstr "Aangepast"
+
+#: src/window.rs:1949
+msgid "Quality level"
+msgstr "Kwaliteitsniveau"
+
+#: src/window.rs:1960
+msgid "Quality (%)"
+msgstr "Kwaliteit (%)"
+
+#: src/window.rs:1961
+msgid "JPEG quality; PNG remains lossless"
+msgstr "JPEG-kwaliteit; PNG blijft verliesvrij"
+
+#: src/window.rs:1970
+msgid "Apply"
+msgstr "Toepassen"
+
+#: src/window.rs:1982
+msgid "Apply current settings"
+msgstr "Huidige instellingen toepassen"
+
+#: src/window.rs:1983
+msgid "Copy Resize and Quality to other images"
+msgstr "Kopieer formaat en kwaliteit naar andere afbeeldingen"
+
+#: src/window.rs:1986
+msgid "Apply…"
+msgstr "Toepassen…"
+
+#: src/window.rs:1995
+msgid "Apply to Selected Images"
+msgstr "Toepassen op geselecteerde afbeeldingen"
+
+#: src/window.rs:1998
+msgid "Apply to All Images"
+msgstr "Toepassen op alle afbeeldingen"
+
+#: src/window.rs:2010
+msgid "4. Output"
+msgstr "4. Uitvoer"
+
+#: src/window.rs:2011
+msgid "Image Bench never overwrites source files."
+msgstr "Image Bench overschrijft bronbestanden nooit."
+
+#: src/window.rs:2016
+msgid "Output folder"
+msgstr "Uitvoermap"
+
+#: src/window.rs:2017
+msgid "Choose where optimized images are saved"
+msgstr "Kies waar geoptimaliseerde afbeeldingen worden opgeslagen"
+
+#: src/window.rs:2020
+msgid "Choose"
+msgstr "Kiezen"
+
+#: src/window.rs:2027
+msgid "Advanced output options"
+msgstr "Geavanceerde uitvoeropties"
+
+#: src/window.rs:2028
+msgid "Filename and quality suffixes"
+msgstr "Bestandsnaam- en kwaliteitssuffixen"
+
+#: src/window.rs:2034
+msgid "Add filename suffix"
+msgstr "Bestandsnaamsuffix toevoegen"
+
+#: src/window.rs:2035
+msgid "Adds a custom suffix before the file extension"
+msgstr "Voegt een aangepast suffix toe vóór de bestandsextensie"
+
+#: src/window.rs:2044
+msgid "Filename suffix"
+msgstr "Bestandsnaamsuffix"
+
+#: src/window.rs:2049
+msgid "Add quality suffix"
+msgstr "Kwaliteitssuffix toevoegen"
+
+#: src/window.rs:2050
+msgid "Adds -85 for the current quality setting"
+msgstr "Voegt -85 toe voor de huidige kwaliteitsinstelling"
+
+#: src/window.rs:2114
+msgid "Choose Output Folder"
+msgstr "Uitvoermap kiezen"
+
+#: src/window.rs:2204
+msgid "Preparing {count} image…"
+msgid_plural "Preparing {count} images…"
+msgstr[0] "Voorbereiden van {count} afbeelding…"
+msgstr[1] "Voorbereiden van {count} afbeeldingen…"
+
+#: src/window.rs:2230
+msgid "Optimizing {name}  •  {current} of {total}"
+msgstr "Optimaliseren van {name}  •  {current} van {total}"
+
+#: src/window.rs:2264
+msgid "Image already optimized"
+msgid_plural "Images already optimized"
+msgstr[0] "Afbeelding is al geoptimaliseerd"
+msgstr[1] "Afbeeldingen zijn al geoptimaliseerd"
+
+#: src/window.rs:2271 src/window.rs:2314
+msgid "Finished"
+msgstr "Voltooid"
+
+#: src/window.rs:2285
+msgid "{size} saved"
+msgstr "{size} bespaard"
+
+#: src/window.rs:2293
+msgid "{size} larger"
+msgstr "{size} groter"
+
+#: src/window.rs:2304 src/window.rs:2327
+msgid "{count} image already optimized"
+msgid_plural "{count} images already optimized"
+msgstr[0] "{count} afbeelding is al geoptimaliseerd"
+msgstr[1] "{count} afbeeldingen zijn al geoptimaliseerd"
+
+#: src/window.rs:2318
+msgid "Optimized {count} image"
+msgid_plural "Optimized {count} images"
+msgstr[0] "{count} afbeelding geoptimaliseerd"
+msgstr[1] "{count} afbeeldingen geoptimaliseerd"
+
+#: src/window.rs:2338
+msgid "No images were exported"
+msgstr "Er zijn geen afbeeldingen geëxporteerd"
+
+#: src/window.rs:2349
+msgid "{count} image could not be processed"
+msgid_plural "{count} images could not be processed"
+msgstr[0] "{count} afbeelding kon niet worden verwerkt"
+msgstr[1] "{count} afbeeldingen konden niet worden verwerkt"
+
+#: src/window.rs:2589
+msgid "Adds -{percentage} for the current quality setting"
+msgstr "Voegt -{percentage} toe voor de huidige kwaliteitsinstelling"
+
+#: src/window.rs:2607 src/window.rs:2618
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: src/window.rs:2612
+msgid "Original"
+msgstr "Origineel"
+
+#: src/window.rs:2615
+msgid "Compare"
+msgstr "Vergelijken"
+
+#: src/window.rs:2625
+msgid "Show sidebar"
+msgstr "Zijbalk tonen"
+
+msgid "Hide sidebar"
+msgstr "Zijbalk verbergen"
+
+#: src/window.rs:2631
+msgid "Show batch queue"
+msgstr "Batchwachtrij tonen"
+
+msgid "Hide batch queue"
+msgstr "Batchwachtrij verbergen"
+
+#: src/window.rs:2643
+msgid "Drop images here"
+msgstr "Sleep afbeeldingen hierheen"
+
+#: src/window.rs:2644
+msgid "Drop one or more JPEG or PNG images here, or use Add Images / Add Folder."
+msgstr "Sleep hier één of meer JPEG- of PNG-afbeeldingen heen, of gebruik Afbeeldingen toevoegen / Map toevoegen."
+
+#: src/window.rs:2679
+msgid "Drag horizontally to compare Original and Preview"
+msgstr "Sleep horizontaal om Origineel en Voorbeeld te vergelijken"
+
+#: src/window.rs:2706
+msgid "Batch queue"
+msgstr "Batchwachtrij"
+
+#: src/window.rs
+msgid "Fit"
+msgstr "Passend"
+
+#: src/window.rs
+msgid "Preview zoom"
+msgstr "Zoom voor voorbeeld"

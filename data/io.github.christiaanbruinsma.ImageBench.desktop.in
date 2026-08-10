@@ -1,0 +1,22 @@
+[Desktop Entry]
+Name=Image Bench
+Comment=Resize and compress images locally
+Comment[nl]=Pas afbeeldingsformaten lokaal aan en comprimeer ze
+Comment[de]=Bilder lokal skalieren und komprimieren
+Comment[fr]=Redimensionner et compresser des images localement
+Comment[es]=Redimensiona y comprime imágenes localmente
+Comment[it]=Ridimensiona e comprimi immagini localmente
+Comment[pt]=Redimensione e comprima imagens localmente
+Exec=image-bench
+Icon=@APP_ID@
+Terminal=false
+Type=Application
+Categories=Graphics;Utility;
+Keywords=image;photo;compress;resize;optimize;batch;
+Keywords[nl]=afbeelding;foto;comprimeren;formaat wijzigen;optimaliseren;batch;
+Keywords[de]=bild;foto;komprimieren;skalieren;optimieren;stapel;
+Keywords[fr]=image;photo;compresser;redimensionner;optimiser;lot;
+Keywords[es]=imagen;foto;comprimir;redimensionar;optimizar;lote;
+Keywords[it]=immagine;foto;comprimere;ridimensionare;ottimizzare;batch;
+Keywords[pt]=imagem;fotografia;comprimir;redimensionar;otimizar;lote;
+StartupNotify=true

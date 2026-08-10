@@ -1,0 +1,367 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Image Bench 0.9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-09 17:20+0200\n"
+"PO-Revision-Date: 2026-08-09 17:20+0200\n"
+"Last-Translator: Christiaan Bruinsma\n"
+"Language-Team: Portuguese\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/application.rs:53
+msgid "Resize and compress batches of images locally."
+msgstr "Redimensione e comprima lotes de imagens localmente."
+
+#: src/window.rs:168
+msgid "Drag to compare Original and Preview"
+msgstr "Arraste para comparar Original e Pré-visualização"
+
+#: src/window.rs:524
+msgid "JPEG and PNG images"
+msgstr "Imagens JPEG e PNG"
+
+#: src/window.rs:566 src/window.rs:1904
+msgid "Add Images"
+msgstr "Adicionar imagens"
+
+#: src/window.rs:592 src/window.rs:1906
+msgid "Add Folder"
+msgstr "Adicionar pasta"
+
+#: src/window.rs:771
+msgid "Resize: {resize} px  •  Quality: {quality}%"
+msgstr "Tamanho: {resize} px  •  Qualidade: {quality}%"
+
+#: src/window.rs:1086 src/window.rs:1293 src/window.rs:2229
+msgid "Image"
+msgstr "Imagem"
+
+#: src/window.rs:1346
+msgid "Generating comparison…"
+msgstr "A gerar comparação…"
+
+#: src/window.rs:1359 src/window.rs:1372 src/window.rs:1393 src/window.rs:1410
+msgid "Compare unavailable"
+msgstr "Comparação indisponível"
+
+#: src/window.rs:1461
+msgid "Generating preview…"
+msgstr "A gerar pré-visualização…"
+
+#: src/window.rs:1472 src/window.rs:1535 src/window.rs:1545
+msgid "Preview unavailable"
+msgstr "Pré-visualização indisponível"
+
+#: src/window.rs:1578
+msgid "{width} × {height}  •  {size}  •  {percent}% smaller"
+msgstr "{width} × {height}  •  {size}  •  {percent}% menor"
+
+#: src/window.rs:1583
+msgid "{width} × {height}  •  {size}  •  {percent}% larger"
+msgstr "{width} × {height}  •  {size}  •  {percent}% maior"
+
+#: src/window.rs:1602
+msgid "Optimize Image"
+msgstr "Otimizar imagem"
+
+#: src/window.rs:1604 src/window.rs:2059
+msgid "Optimize Images"
+msgstr "Otimizar imagens"
+
+#: src/window.rs:1662 src/window.rs:2712
+msgid "0 images"
+msgstr "0 imagens"
+
+#: src/window.rs:1664 src/window.rs:2295
+msgid "{count} image"
+msgid_plural "{count} images"
+msgstr[0] "{count} imagem"
+msgstr[1] "{count} imagens"
+
+#: src/window.rs:1674
+msgid "Inspecting images…"
+msgstr "A inspecionar imagens…"
+
+#: src/window.rs:1676 src/window.rs:1891
+msgid "No images loaded"
+msgstr "Nenhuma imagem carregada"
+
+#: src/window.rs:1712
+msgid "Select for bulk actions"
+msgstr "Selecionar para ações em lote"
+
+#: src/window.rs:1819
+msgid "Remove from queue"
+msgstr "Remover da fila"
+
+#: src/window.rs:1865
+msgid "Local image optimization"
+msgstr "Otimização local de imagens"
+
+#: src/window.rs:1869
+msgid "About Image Bench"
+msgstr "Acerca do Image Bench"
+
+#: src/window.rs:1870
+msgid "Quit"
+msgstr "Sair"
+
+#: src/window.rs:1874
+msgid "Main menu"
+msgstr "Menu principal"
+
+#: src/window.rs:1886
+msgid "1. Images"
+msgstr "1. Imagens"
+
+#: src/window.rs:1890 src/window.rs:2630
+msgid "Queue"
+msgstr "Fila"
+
+#: src/window.rs:1896
+msgid "Clear queue"
+msgstr "Limpar fila"
+
+#: src/window.rs:1912
+msgid "2. Resize"
+msgstr "2. Redimensionar"
+
+#: src/window.rs:1913
+msgid "Aspect ratio is always preserved. Images are never upscaled."
+msgstr "A proporção é sempre preservada. As imagens nunca são ampliadas."
+
+#: src/window.rs:1918
+msgid "1920 px — Background / Hero"
+msgstr "1920 px — Fundo / Hero"
+
+#: src/window.rs:1919
+msgid "1280 px — Content"
+msgstr "1280 px — Conteúdo"
+
+#: src/window.rs:1920
+msgid "800 px — Small"
+msgstr "800 px — Pequeno"
+
+#: src/window.rs:1921 src/window.rs:1933
+msgid "Custom width"
+msgstr "Largura personalizada"
+
+#: src/window.rs:1926
+msgid "Target width"
+msgstr "Largura de destino"
+
+#: src/window.rs:1938
+msgid "3. Quality"
+msgstr "3. Qualidade"
+
+#: src/window.rs:1941
+msgid "High — 92%"
+msgstr "Alta — 92%"
+
+#: src/window.rs:1942
+msgid "Balanced — 85%"
+msgstr "Equilibrada — 85%"
+
+#: src/window.rs:1943
+msgid "Compact — 75%"
+msgstr "Compacta — 75%"
+
+#: src/window.rs:1944
+msgid "Custom"
+msgstr "Personalizada"
+
+#: src/window.rs:1949
+msgid "Quality level"
+msgstr "Nível de qualidade"
+
+#: src/window.rs:1960
+msgid "Quality (%)"
+msgstr "Qualidade (%)"
+
+#: src/window.rs:1961
+msgid "JPEG quality; PNG remains lossless"
+msgstr "Qualidade JPEG; PNG permanece sem perdas"
+
+#: src/window.rs:1970
+msgid "Apply"
+msgstr "Aplicar"
+
+#: src/window.rs:1982
+msgid "Apply current settings"
+msgstr "Aplicar definições atuais"
+
+#: src/window.rs:1983
+msgid "Copy Resize and Quality to other images"
+msgstr "Copiar tamanho e qualidade para outras imagens"
+
+#: src/window.rs:1986
+msgid "Apply…"
+msgstr "Aplicar…"
+
+#: src/window.rs:1995
+msgid "Apply to Selected Images"
+msgstr "Aplicar às imagens selecionadas"
+
+#: src/window.rs:1998
+msgid "Apply to All Images"
+msgstr "Aplicar a todas as imagens"
+
+#: src/window.rs:2010
+msgid "4. Output"
+msgstr "4. Saída"
+
+#: src/window.rs:2011
+msgid "Image Bench never overwrites source files."
+msgstr "O Image Bench nunca substitui os ficheiros de origem."
+
+#: src/window.rs:2016
+msgid "Output folder"
+msgstr "Pasta de saída"
+
+#: src/window.rs:2017
+msgid "Choose where optimized images are saved"
+msgstr "Escolha onde guardar as imagens otimizadas"
+
+#: src/window.rs:2020
+msgid "Choose"
+msgstr "Escolher"
+
+#: src/window.rs:2027
+msgid "Advanced output options"
+msgstr "Opções avançadas de saída"
+
+#: src/window.rs:2028
+msgid "Filename and quality suffixes"
+msgstr "Sufixos de nome de ficheiro e qualidade"
+
+#: src/window.rs:2034
+msgid "Add filename suffix"
+msgstr "Adicionar sufixo ao nome do ficheiro"
+
+#: src/window.rs:2035
+msgid "Adds a custom suffix before the file extension"
+msgstr "Adiciona um sufixo personalizado antes da extensão do ficheiro"
+
+#: src/window.rs:2044
+msgid "Filename suffix"
+msgstr "Sufixo do nome do ficheiro"
+
+#: src/window.rs:2049
+msgid "Add quality suffix"
+msgstr "Adicionar sufixo de qualidade"
+
+#: src/window.rs:2050
+msgid "Adds -85 for the current quality setting"
+msgstr "Adiciona -85 para a definição de qualidade atual"
+
+#: src/window.rs:2114
+msgid "Choose Output Folder"
+msgstr "Escolher pasta de saída"
+
+#: src/window.rs:2204
+msgid "Preparing {count} image…"
+msgid_plural "Preparing {count} images…"
+msgstr[0] "A preparar {count} imagem…"
+msgstr[1] "A preparar {count} imagens…"
+
+#: src/window.rs:2230
+msgid "Optimizing {name}  •  {current} of {total}"
+msgstr "A otimizar {name}  •  {current} de {total}"
+
+#: src/window.rs:2264
+msgid "Image already optimized"
+msgid_plural "Images already optimized"
+msgstr[0] "Imagem já otimizada"
+msgstr[1] "Imagens já otimizadas"
+
+#: src/window.rs:2271 src/window.rs:2314
+msgid "Finished"
+msgstr "Concluído"
+
+#: src/window.rs:2285
+msgid "{size} saved"
+msgstr "Poupança: {size}"
+
+#: src/window.rs:2293
+msgid "{size} larger"
+msgstr "{size} maior"
+
+#: src/window.rs:2304 src/window.rs:2327
+msgid "{count} image already optimized"
+msgid_plural "{count} images already optimized"
+msgstr[0] "{count} imagem já otimizada"
+msgstr[1] "{count} imagens já otimizadas"
+
+#: src/window.rs:2318
+msgid "Optimized {count} image"
+msgid_plural "Optimized {count} images"
+msgstr[0] "{count} imagem otimizada"
+msgstr[1] "{count} imagens otimizadas"
+
+#: src/window.rs:2338
+msgid "No images were exported"
+msgstr "Nenhuma imagem foi exportada"
+
+#: src/window.rs:2349
+msgid "{count} image could not be processed"
+msgid_plural "{count} images could not be processed"
+msgstr[0] "Não foi possível processar {count} imagem"
+msgstr[1] "Não foi possível processar {count} imagens"
+
+#: src/window.rs:2589
+msgid "Adds -{percentage} for the current quality setting"
+msgstr "Adiciona -{percentage} para a definição de qualidade atual"
+
+#: src/window.rs:2607 src/window.rs:2618
+msgid "Preview"
+msgstr "Pré-visualização"
+
+#: src/window.rs:2612
+msgid "Original"
+msgstr "Original"
+
+#: src/window.rs:2615
+msgid "Compare"
+msgstr "Comparar"
+
+#: src/window.rs:2625
+msgid "Show sidebar"
+msgstr "Mostrar barra lateral"
+
+msgid "Hide sidebar"
+msgstr "Ocultar barra lateral"
+
+#: src/window.rs:2631
+msgid "Show batch queue"
+msgstr "Mostrar fila em lote"
+
+msgid "Hide batch queue"
+msgstr "Ocultar fila em lote"
+
+#: src/window.rs:2643
+msgid "Drop images here"
+msgstr "Largue imagens aqui"
+
+#: src/window.rs:2644
+msgid "Drop one or more JPEG or PNG images here, or use Add Images / Add Folder."
+msgstr "Largue aqui uma ou mais imagens JPEG ou PNG, ou use Adicionar imagens / Adicionar pasta."
+
+#: src/window.rs:2679
+msgid "Drag horizontally to compare Original and Preview"
+msgstr "Arraste horizontalmente para comparar Original e Pré-visualização"
+
+#: src/window.rs:2706
+msgid "Batch queue"
+msgstr "Fila em lote"
+
+#: src/window.rs
+msgid "Fit"
+msgstr "Ajustar"
+
+#: src/window.rs
+msgid "Preview zoom"
+msgstr "Zoom da pré-visualização"
