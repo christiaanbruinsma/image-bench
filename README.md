@@ -2,6 +2,10 @@
 
 Image Bench is a local-first GNOME utility for batch image resizing and optimization.
 
+## Release status
+
+Current release: **0.9.1**.
+
 ## v0.9.0 baseline
 
 - Add multiple JPEG/PNG images.

@@ -1,7 +1,7 @@
 project(
   'image-bench',
   'rust',
-  version: '0.9.0',
+  version: '0.9.1',
   meson_version: '>= 1.4.0',
   license: 'GPL-3.0-or-later',
 )

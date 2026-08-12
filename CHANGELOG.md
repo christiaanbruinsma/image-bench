@@ -1,3 +1,10 @@
+## 0.9.1 - 2026-08-12
+
+- Embed gettext translation catalogs directly in the standalone Flatpak release bundle.
+- Ensure Dutch, German, French, Spanish, Italian, and Portuguese work when installing the GitHub `.flatpak` without a separate `.Locale` extension.
+- Add the production Flatpak manifest to the repository for reproducible release builds.
+- No application feature, image-processing, or UI behavior changes.
+
 ## Candidate 52
 
 - Align sidebar icon handling with the Data Inspector Golden Standard: bundle the exact `panel-left-symbolic` and `panel-right-symbolic` hicolor action fallbacks used by Data Inspector while keeping the semantic GTK icon names unchanged.
